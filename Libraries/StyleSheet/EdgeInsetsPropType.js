@@ -11,7 +11,7 @@
  */
 'use strict';
 
-var {PropTypes} = require('React');
+const ReactPropTypes = require('prop-types');
 
 var createStrictShapeTypeChecker = require('createStrictShapeTypeChecker');
 

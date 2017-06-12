@@ -22,7 +22,7 @@ var ViewStylePropTypes = require('ViewStylePropTypes');
 var processColor = require('processColor');
 var requireNativeComponent = require('requireNativeComponent');
 
-var ReactPropTypes = React.PropTypes;
+const ReactPropTypes = require('prop-types');
 
 var REF_PICKER = 'picker';
 var MODE_DROPDOWN = 'dropdown';

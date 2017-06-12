@@ -12,7 +12,7 @@
 'use strict';
 
 var ColorPropType = require('ColorPropType');
-var ReactPropTypes = require('React').PropTypes;
+const ReactPropTypes = require('prop-types');
 
 var ShadowPropTypesIOS = {
   /**
